@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a+//OWRfT77eNTXv2qKjjP7r81yMeuQB+D+Cgi+qgas=",
+  "Hash": "wVAZJ0AQ7FmiL5W2cZeSVZD8YAaXrksdaqlqYAbIfqs=",
   "Source": "WoodStyleShop",
   "BasePath": "_content/WoodStyleShop",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WoodStyleShop.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\css\\createProfile.css",
+      "SourceId": "WoodStyleShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\",
+      "BasePath": "_content/WoodStyleShop",
+      "RelativePath": "css/createProfile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\createProfile.css"
     },
     {
       "Identity": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\css\\product.css",

@@ -1,0 +1,17 @@
+﻿@page
+@model WoodStyleShop.Pages.ProfileModel
+
+<link href="~/css/createProfile.css" rel="stylesheet" type="text/css" />
+
+<div class="reg-page">
+    <div class="form">
+        <form>
+            <input type="text" placeholder="name"/>
+            <input type="email" placeholder="email"/>
+            <input type="text" placeholder="number"/>
+            <input type="text" placeholder="address" />
+            <button>Create</button>
+            <p class="message">already registred? <a asp-page="Signin">sign in</a></p>
+        </form>
+    </div>
+</div>
