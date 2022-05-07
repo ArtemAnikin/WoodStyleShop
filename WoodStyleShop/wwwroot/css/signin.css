@@ -5,9 +5,13 @@
 .content
 {
     display:block;
-    margin-left:30%;
-    margin-top: 5px;
+    margin-left:35%;
+    margin-top: 100px;
     width:min-content;
+}
+.form-group
+{
+    padding:5px;
 }
 .buttons
 {
