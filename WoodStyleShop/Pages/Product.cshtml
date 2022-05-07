@@ -1,0 +1,21 @@
+﻿@page
+@model WoodStyleShop.Pages.Shared.ProdutcModel
+@{
+}
+<link href="~/css/product.css" rel="stylesheet" type ="text/css" />
+ <div>
+		<div class="card">
+			<img class="product_img" src="@Model.product.img"/>
+			<div class="content">
+				<h2><p class="name">@Model.product.name</P></h2>
+				<P> @Model.product.longDesc</p>
+					<div class="prise">
+						Prise: 
+					</div>
+					<div class = "buttons btn-group">
+						<a asp-page="/Catalog" type="button" class="btn btn-sm btn-outline-secondary">Back</a>
+						<a href="#" type="button" class="btn btn-sm btn-outline-secondary">About</a>
+					</div>
+			</div>
+		</div>
+ </div>

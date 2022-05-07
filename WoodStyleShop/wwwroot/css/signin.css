@@ -1,0 +1,15 @@
+﻿.form-group
+{
+    width: 300px;
+}
+.content
+{
+    display:block;
+    margin-left:30%;
+    margin-top: 5px;
+    width:min-content;
+}
+.buttons
+{
+    margin-left:35%;
+}

@@ -1,0 +1,28 @@
+﻿@page
+@model WoodStyleShop.Pages.CatalogModel
+@using WoodStyleShop.Data.Models;
+
+<div class="row mb-4">
+    @{
+        if (ViewData["Products"] is List<Product> products)
+            foreach (var product in products)
+            {
+                <div class = "col-lg-3 mt-4">
+                    <div class="card shadow-sm">
+            <img src="@product.img" height="255"/>
+            <div class="card-body">
+              <p class ="card-text align-content-center" >@product.name</p>
+              <p class="card-text">@product.shortDesc</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a asp-page="/Product" type="button" class="btn btn-sm btn-outline-secondary">About</a>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to likelist</button>
+                </div>
+                <small class="text-muted">Prise: </small>
+              </div>
+            </div>
+          </div>
+       </div>
+       }
+       }
+</div>
