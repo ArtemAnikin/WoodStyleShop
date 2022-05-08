@@ -1,0 +1,54 @@
+.col h3
+{
+    text-align: center;
+    margin-top: 25px;
+}
+.col-sm-12 h7
+{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.btn
+{
+    float: right;
+    margin-right: 20px;
+}
+.price
+{
+    color: darkorange;
+}
+.order_info
+{
+    margin: auto;
+}
+.order_info .col
+{
+    margin: auto;
+    border:2px solid black;
+    padding: 50px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.product_img
+{
+    width: 50%;
+    float: left;
+}
+.product_info
+{
+    width: 45%;
+    float: right;
+    text-align: left;
+}
+.product
+{
+    height: 220px;
+}
+.products
+{
+    overflow-y: scroll;
+    max-height: 561px;
+    scrollbar-width: auto;
+
+}
