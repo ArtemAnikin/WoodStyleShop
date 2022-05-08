@@ -1,0 +1,22 @@
+.row
+{
+    margin-top: 30px;
+}
+.card
+{
+    text-align: center;
+}
+.product
+{
+    float: left;
+    padding: 5px;
+    height:420px;
+}
+.products
+{
+    align-content: center;
+    width: 100%;
+}
+.card img{
+    max-height: 245px;
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cty3D1P/HujFBoOTWgUx5Ao3PXSd/siupBz/Ch97yL8=",
+  "Hash": "eHDe+3rg0nEBGz5PVmKnrsBhrtU/7xV/W/Lb99oUO4E=",
   "Source": "WoodStyleShop",
   "BasePath": "_content/WoodStyleShop",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WoodStyleShop.bundle.scp.css"
     },
     {
+      "Identity": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\css\\Catalog.css",
+      "SourceId": "WoodStyleShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\",
+      "BasePath": "_content/WoodStyleShop",
+      "RelativePath": "css/Catalog.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Catalog.css"
+    },
+    {
       "Identity": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\css\\createProfile.css",
       "SourceId": "WoodStyleShop",
       "SourceType": "Discovered",
@@ -85,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\css\\Index.css"
     },
     {
-      "Identity": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\css\\Order.css",
+      "Identity": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\css\\Orders.css",
       "SourceId": "WoodStyleShop",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\",
       "BasePath": "_content/WoodStyleShop",
-      "RelativePath": "css/Order.css",
+      "RelativePath": "css/Orders.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +116,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Order.css"
+      "OriginalItemSpec": "wwwroot\\css\\Orders.css"
     },
     {
       "Identity": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\css\\product.css",
@@ -491,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\arrows\\arrow-right-circle-fill.svg"
+    },
+    {
+      "Identity": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\img\\catalog_icons\\heart.svg",
+      "SourceId": "WoodStyleShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\",
+      "BasePath": "_content/WoodStyleShop",
+      "RelativePath": "img/catalog_icons/heart.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\catalog_icons\\heart.svg"
     },
     {
       "Identity": "D:\\visual studio\\WoodStyleShop\\WoodStyleShop\\wwwroot\\img\\dog.png",
