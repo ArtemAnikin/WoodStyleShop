@@ -1,0 +1,46 @@
+.profile-form
+{
+    border:2px solid black;
+    background-color: white;
+    max-width: 45%;
+    min-width: 450px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+.profile-form img
+{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.icon img
+{
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
+    margin: auto;
+}
+.row  
+{
+    text-align: center;
+    padding: 20px;
+}
+.profile-form button
+{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.row button
+{
+    width: 20%;
+    margin: auto;
+}
+.name
+{
+    text-align: center;
+}
+.btn
+{
+    float: right;
+}

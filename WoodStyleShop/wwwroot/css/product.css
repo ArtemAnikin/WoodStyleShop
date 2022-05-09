@@ -1,39 +1,21 @@
-﻿.name {
-    text-align: center;
-    font-family: serife;
-}
-
-.card {
-    margin-top: 5;
-    margin-left: 20%;
-    height: 500px;
-    width: 800px;
-    background-color: white;
-    border-radius: 20px;
-    display: block;
-    align-items: center;
-}
-
-.product_img {
-    padding: 10px;
-    width: min-content;
-    float:left;
-    height: 80%;
-}
-
-.content {
-    width: 45%;
-    margin-top:50px;
+﻿
+.product-form {
+    margin: auto;
+    margin-top: 30px;
     height: auto;
-    float:right;
-    padding: 10px;
+    padding: 50px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
 }
 
-.prise {
-    padding: 5px;
-    width: max-content;
-    float: left;
+.product-info {
+    text-align: center;
+    padding: 20px;
 }
-.buttons {
-    float:right;
+
+.price {
+    padding: 20px;
+    color: orange;
 }

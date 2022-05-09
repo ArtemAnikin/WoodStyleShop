@@ -6,4 +6,21 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Pages\Profile.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Profile.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Profile.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Profile.cshtml" />
+    <None Include="wwwroot\img\Profile_icons\pencil-square.svg" />
+  </ItemGroup>
+
 </Project>

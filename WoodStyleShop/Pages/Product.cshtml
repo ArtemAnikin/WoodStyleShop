@@ -2,20 +2,35 @@
 @model WoodStyleShop.Pages.Shared.ProdutcModel
 @{
 }
-<link href="~/css/product.css" rel="stylesheet" type ="text/css" />
- <div>
-		<div class="card">
-			<img class="product_img" src="@Model.product.img"/>
-			<div class="content">
-				<h2><p class="name">@Model.product.name</P></h2>
-				<P> @Model.product.longDesc</p>
-					<div class="prise">
-						Prise: 
-					</div>
-					<div class = "buttons btn-group">
-						<a asp-page="/Catalog" type="button" class="btn btn-sm btn-outline-secondary">Back</a>
-						<a href="#" type="button" class="btn btn-sm btn-outline-secondary">About</a>
-					</div>
-			</div>
-		</div>
- </div>
+
+<link href="/css/product.css" rel="stylesheet" type="text/css" >
+
+<section>
+    <div class="container">
+      <div class="product-form">
+        <div class="row">
+          <div class="col">
+            <img class="w-100" src="/img/Index.png" />
+          </div>
+          <div class="col">
+            <h3 style="text-align: center;">Lion</h3>
+            <div class="product-info">
+              <select class="form-select" aria-label="select" >
+                <option selected>Выберите размер</option>
+                <option value="1">S</option>
+                <option value="2">M</option>
+                <option value="3">L</option>
+              </select>
+              <div class="price">
+                <h4>500$</h4>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-outline-success">В корзину</button>
+                <a asp-page="/Catalog" class="btn btn-outline-danger">Назад</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

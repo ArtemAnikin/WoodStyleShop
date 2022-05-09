@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace WoodStyleShop.Pages
 {
-    public class ProfileModel : PageModel
+    public class CreateProfileModel : PageModel
     {
         public void OnGet()
         {
